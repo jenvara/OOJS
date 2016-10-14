@@ -26,6 +26,6 @@ Playlist.prototype.next = function() {
 	this.play();
 };
 
-Playlist.prototype.renderIn = function() {
+Playlist.prototype.renderInElement = function() {
 
 };
