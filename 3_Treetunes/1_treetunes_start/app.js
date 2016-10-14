@@ -1,7 +1,11 @@
 var playlist = new Playlist();
 
-var hereComesThesun = new Song("Here Comes the Sun", "The Beatles, "2:54");
-var walkingOnSunshine = new Song("Walking on Sunshine", "Katrina and the Waves" , "3:43");
+var hereComesTheSun = new Song("Here Comes the Sun", "The Beatles", "2:54");
+var walkingOnSunshine = new Song("Walking on Sunshine", "Katrina and the Waves", "3:43");
 
-playlist.add(hereComesThesun);
-platlist.add(walkingOnSunshine);
+playlist.add(hereComesTheSun);
+playlist.add(walkingOnSunshine);
+
+var playlistElement = document.getElementById("playlist");
+
+playlist.renderInElement(playlistElement);
